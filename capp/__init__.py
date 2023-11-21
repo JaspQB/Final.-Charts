@@ -5,7 +5,7 @@ application = Flask(__name__)
 
 # application.config['SECRET_KEY'] = os.environ['SECRET_KEY']  
 
-application.config['SECRET_KEY'] = os.environ['SECRET_KEY']
+application.config['SECRET_KEY'] = '8f14243d94475ade1eaddb114935c37cba794ec90cc98f2'
 
 from capp.home.routes import home
 from capp.methodology.routes import methodology
