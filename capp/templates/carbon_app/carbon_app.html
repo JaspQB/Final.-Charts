@@ -7,16 +7,19 @@
     
         <div class="header_carbon_app">
             <div class="box"> 
-            <h1 style="font-size:55px;"><span class="text-logo"> Carbon App Calculator</span></h1>
+            <h1 style="font-size:55px;"><span class="text-logo" style="color: #024323;"> Carbon App Calculator</span></h1>
             <p style="text-align:left;">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat dolores quos asperiores repellendus facilis cum illo aperiam odit doloremque nostrum. Totam excepturi labore voluptatibus iusto sapiente quisquam consectetur optio magnam voluptates omnis vel officia alias distinctio quas laborum reiciendis ratione inventore veniam, cupiditate doloribus dolore, eius natus a. Magni inventore consequuntur voluptas reprehenderit perferendis! Molestias aspernatur rem autem aut temporibus.
+                Using our carbon calculator focused on travel-related emissions is a straightforward process aimed at providing you as a user with insights into your transportation-related carbon footprint. 
+                In our calculator you will find fields prompting you to input details about your modes of transportation and distances traveled. 
+                Begin by writhing in your estimated travel distance (km) with said transportation method, and simply let the website calculate your travel emission in too CO2.
+
             </p>
             <div class="container_buttons_links_header_carbon_app">
                 <div class="btn">
-                    <a href="{{url_for('methodology.methodology_home')}}" class="btn btn-primary btn-lg mr-2", style="background-color:#007bff;">Methodology</a>
+                    <a href="{{url_for('methodology.methodology_home')}}" class="btn btn-primary btn-lg mr-2", style="background-color: #067d42;">Methodology</a>
                 </div>
                 <div class="btn">
-                    <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:#007bff;", data-toggle="modal" data-target="#carbon_app_instructions">Instructions</a>
+                    <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color: #067d42;", data-toggle="modal" data-target="#carbon_app_instructions">Instructions</a>
                 </div>
             </div>  
             <!-- Modal Instructions -->
@@ -30,14 +33,14 @@
           
                     <div class="modal-body", style="color:black">
                     <p style="text-align: left;">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ratione tempore id esse nobis molestias quasi explicabo possimus ea reprehenderit.
+                        Here is a step by step guide on how to use our calculator!
                     </p>
                     <ol style="text-align:left;">
                         <li>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, sint.
+                            Begin by writhing in your estimated travel distance in km with said transportation method.
                         </li>
                         <li>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, sint.
+                            Click on the "Submit" button and simply let the website calculate your travel emission in too CO2.
                         </li>
                     </ol>
                     </div>
@@ -51,11 +54,7 @@
             </div>
             </div>
             <div class="box">
-            <img 
-                src="{{url_for('static', filename='icons/calculator.svg')}}"
-                width="325" 
-                height="325"
-                alt=""/>
+                <iframe width="450" height="315" src="https://www.youtube.com/embed/8q7_aV8eLUE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         
@@ -306,6 +305,7 @@
                             </br>
                             <div class="form-group">
                                 {{ form.submit(class="btn btn-primary btn-lg mr-2", style="background-color=#007bff;") }}
+                                
                             </div>
                         </form> 
                 </div>

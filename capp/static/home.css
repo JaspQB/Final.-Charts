@@ -3,6 +3,7 @@ Home, section 1 (head, background): #9fa7bf
 Home, section 1 (head, boxes): #568c63
 Home, section 2 (developers, background): #c5c8d9 
 Home, section 2 (developers, boxes): #49736f
+Home, section 2 (developers, boxes, writing): #333
  */
 
 /* Utilities  */
@@ -11,18 +12,21 @@ p {
   font-size: 18px;
 }
 /* Section header_home */
+
 .section_header_home {
-  background-color:#9fa7bf;
+  background-image: url('https://www.rcplondon.ac.uk/sites/default/files/media/Webp.net-resizeimage%20%281%29_0.png');/* Image for Section header_home*/
+  background-color: #9fa7bf; 
 }
+
 .header_home {
   display: flex;  
   align-items: start;
-  background: #9fa7bf;
 }
+
+
 .header_home .box {
   flex: 1;
-  background: #9fa7bf;
-  color: #fff;
+  color: #9fa7bf;
   border-radius: 10px;
   margin: 20px 10px;
   padding: 15px 20px;
@@ -30,6 +34,8 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+
 .header_home .box:nth-of-type(1) {
   flex-grow:2;
 }
@@ -43,30 +49,35 @@ p {
   flex-wrap:wrap;
 }
 .container_buttons_links_header_home a:hover {
-  color: #9fa7bf;
+  color: hsl(225, 20%, 69%);
 }
 .container_buttons_links_header_home btn {
   width: 100px;
   height: 100px;
-  background: #9fa7bf;
+  background: #333;
   color: #fff;
   display: flex;
   justify-content:center;
   align-items:center;
 }
 /* Section developers */
+
+
 .section_developers {
-  background-color:#c5c8d9;
+  background-color: rgba(1,126,68,255);
+  
 }
+
 .developers {
   display: flex;  
   align-items: start;
-  background: #c5c8d9;
+  background: #067d42;
 }
+
 .developers .box {
   flex: 1;
-  background: #49736f;
-  color: black;
+  background: #94c947;
+  color: #333;
   border-radius: 10px;
   margin: 20px 10px;
   padding: 15px 20px;
@@ -85,8 +96,8 @@ p {
 }
 .developers .box2 {
   flex: 1;
-  background: #49736f;
-  color: black;
+  background: #94c947;
+  color: #333;
   border-radius: 10px;
   margin: 20px 10px;
   padding: 15px 20px;
@@ -112,6 +123,7 @@ p {
   padding: 0px 0px;
   margin: 0px 0px;
 }
+/* Color of the linkedin box  */
 .btn_developers {
   padding: 10px 10px;
   margin: 10px 10px 10px 10px;
@@ -119,8 +131,8 @@ p {
   border-radius: 5px;
   text-decoration: none;
   font-size: 18px;
-  background-color: #49736f;
-  border: 2px solid  #c5c8d9;
+  background-color: #fff;
+  border: 2px solid  #fff;
 }
 .btn_developers:hover {
   color: #fff;

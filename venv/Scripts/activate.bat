@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Jaspe\Desktop\App\SustainableBusinessModels-main\Ch10. Charts\Final. Charts\venv
+set VIRTUAL_ENV=C:\Users\Jaspe\Desktop\App\Kopi\Final. Charts\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

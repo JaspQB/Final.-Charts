@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Jaspe\Desktop\App\SustainableBusinessModels-main\Ch10. Charts\Final. Charts\venv"
+VIRTUAL_ENV="C:\Users\Jaspe\Desktop\App\Kopi\Final. Charts\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
