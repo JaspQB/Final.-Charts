@@ -72,36 +72,41 @@ ol {
   align-items: start;
   background: #6ba840;
   border-radius: 10px;
-  display: flex;
   align-items: center; 
   justify-content: center;
   
 }
 /* Table with one column */
+.methodology {
+  display: flex;
+  /* Add any additional styling needed for the container */
+}
+
 .methodology .box_table1 {
-  flex: 1;
   background: rgb(241, 198, 123);
   color: #333;
   border-radius: 10px;
-  margin: 10px 10px 10px 10px;
-  padding: 15px 15px;
-  display: flex;
-  text-align:center;
-  align-items: center;
-  justify-content: center;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  /* Remove align-items and justify-content as they are not needed here */
 }
-.methodology .box_table1:nth-of-type(1) {
-  flex-grow:1;
-  background: rgb(241, 198, 123);
-}
-.methodology .box_table1:nth-of-type(2) {
-  flex-grow:4;
-}
-.methodology .box_table1:nth-of-type(3) {
-  flex-grow:1;
-  background: rgb(241, 198, 123);
 
+.methodology .box_table1:nth-of-type(1) {
+  flex-grow: 1;
+  /* Adjust other styles if needed */
 }
+
+.methodology .box_table1:nth-of-type(2) {
+  flex-grow: 2; /* This value is greater to ensure this column is wider */
+  /* Adjust other styles if needed */
+}
+
+.methodology .box_table1:nth-of-type(3) {
+  flex-grow: 1;
+  /* Adjust other styles if needed */
+}
+
 /* Ensuring the methodology container is a flex container */
 .methodology {
   display: flex;
