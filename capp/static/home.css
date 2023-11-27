@@ -84,6 +84,7 @@ p {
   text-align:center;
   align-items: center;
   justify-content: center;
+  
 }
 .developers .box:nth-of-type(1) {
   flex-grow:4;
